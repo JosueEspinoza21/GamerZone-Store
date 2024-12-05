@@ -1,0 +1,228 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: #0b0c10;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    color: white;
+    position: relative;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    text-align: center;
+    flex-grow: 1;
+}
+
+header .user-options {
+    position: absolute;
+    right: 20px;
+    display: flex;
+    gap: 15px;
+}
+
+header .user-options a {
+    color: white;
+    text-decoration: none;
+}
+
+header .user-options a:hover {
+    color: #66fcf1;
+}
+
+/* Navegación */
+nav.main-nav {
+    background-color: #1f2833;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+nav.main-nav a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    font-size: 18px;
+}
+
+nav.main-nav a:hover {
+    background-color: #66fcf1;
+    color: black;
+}
+
+/* Productos */
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 40px 0;
+    padding: 0 20px;
+}
+
+.product-card {
+    background-color: white;
+    border-radius: 10px;
+    width: 300px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+}
+
+.product-card img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.product-card h3 {
+    margin: 10px 0;
+}
+
+.product-card p {
+    color: #555;
+}
+
+.product-card button {
+    background-color: #66fcf1;
+    color: black;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.product-card button:hover {
+    background-color: #1f2833;
+    color: white;
+}
+
+/* Carrito */
+.cart {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cart h2 {
+    margin-top: 0;
+}
+
+.cart ul {
+    list-style: none;
+    padding: 0;
+}
+
+.cart ul li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.cart ul li button {
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.cart ul li button:hover {
+    background-color: darkred;
+}
+
+/* Formulario de Registro e Inicio de Sesión */
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #66fcf1;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #1f2833;
+    color: white;
+}
+
+/* Footer */
+footer {
+    background-color: #0b0c10;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+#cart-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    width: 100%;
+}
+
+#close-modal {
+    color: red;
+    font-size: 30px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+
+
+
+
+
